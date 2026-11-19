@@ -4,7 +4,7 @@
 
 \## Demo Video
 
-\[YouTube](https://youtu.be/ts8EfmKH2C8)
+YouTube](https://youtu.be/ts8EfmKH2C8)
 
 
 
@@ -84,9 +84,9 @@ However, for a larger application running entirely on Azure, Service Bus might m
 
 
 
-\- \[RabbitMQ – Reliability Guide](https://www.rabbitmq.com/docs/reliability)
+- [RabbitMQ – Reliability Guide](https://www.rabbitmq.com/docs/reliability)
 
-\- \[RabbitMQ – Kubernetes Deployment](https://www.rabbitmq.com/docs/next/install-kubernetes-diy)
+- [RabbitMQ – Kubernetes Deployment](https://www.rabbitmq.com/docs/next/install-kubernetes-diy)
 
-\- \[Microsoft – Azure Service Bus Overview](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
+- [Microsoft – Azure Service Bus Overview](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
 
