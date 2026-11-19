@@ -28,11 +28,3 @@ Azure Service Bus is another interesting option because Azure would handle messa
 It would solve the specific problem of depending on a RabbitMQ Pod's local storage, but it would also mean changing our application. The Order Service currently sends messages to RabbitMQ, so we could not simply replace RabbitMQ with Service Bus and expect everything to work without modifying the code.
 I think it depends on what we are trying to achieve. For this lab, replacing RabbitMQ with an entirely different messaging service seems a little excessive when we could just configure persistent storage.
 However, for a larger application running entirely on Azure, Service Bus might make more sense. There is less infrastructure to manage ourselves, although we would become more dependent on Azure.
-
-
-## References
-
-- [RabbitMQ – Reliability Guide](https://www.rabbitmq.com/docs/reliability)
-- [RabbitMQ – Kubernetes Deployment](https://www.rabbitmq.com/docs/next/install-kubernetes-diy)
-- [Microsoft – Azure Service Bus Overview](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)
-
